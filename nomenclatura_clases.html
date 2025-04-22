@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomenclatura de Clases, Métodos y Comentarios</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Nomenclatura para Clases, Métodos y Comentarios</h1>
+</header>
+
+<main>
+  <section>
+    <h2>Nomenclatura de Clases</h2>
+    <p>Las clases son planos para crear objetos. Su nombre debe reflejar la entidad o el concepto que representan.</p>
+    <ul>
+      <li><strong>PascalCase:</strong> Es la convención más común para nombres de clases en la mayoría de los lenguajes orientados a objetos (Java, C#, Python, JavaScript). Cada palabra comienza con mayúscula (ej: `Usuario`, `GestorPedidos`, `HttpRequest`).</li>
+      <li>Los nombres de clases suelen ser sustantivos (ej: `Coche`, `Cliente`, `Servicio`).</li>
+      <li>Deben ser descriptivos y evitar abreviaciones a menos que sean muy comunes y reconocidas.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Nomenclatura de Métodos/Funciones</h2>
+    <p>Los métodos (en clases) o funciones (fuera de clases) realizan acciones. Su nombre debe describir la acción que llevan a cabo.</p>
+    <ul>
+      <li><strong>camelCase:</strong> Común en Java, JavaScript, C# (para métodos privados/protegidos). Empieza en minúscula y las siguientes palabras en mayúscula (ej: `calcularTotal`, `guardarDatos`, `obtenerUsuarioPorId`).</li>
+      <li><strong>snake_case:</strong> Común en Python (ej: `calcular_total`, `guardar_datos`).</li>
+      <li><strong>PascalCase:</strong> A veces usado en C# para métodos públicos (ej: `CalcularTotal`).</li>
+      <li>Los nombres de métodos suelen comenzar con un verbo (ej: `get`, `set`, `calcular`, `guardar`, `validar`).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Uso y Nomenclatura de Comentarios</h2>
+    <p>Los comentarios son explicaciones en el código. Deben usarse para aclarar "por qué" se hace algo, no simplemente "qué" se hace (ya que el código debería ser auto-explicativo si la nomenclatura es buena).</p>
+    <ul>
+      <li><strong>Comentarios de línea única:</strong> Suelen empezar con `//` (en C++, Java, JavaScript, C#) o `#` (en Python). Se usan para explicaciones cortas o para desactivar temporalmente una línea.</li>
+      <li><strong>Comentarios de bloque:</strong> Encerrados entre `/* ... */` (en C++, Java, JavaScript, C#) o `''' ... '''` (en Python - docstrings). Se usan para explicaciones más largas, descripciones de funciones/clases (docstrings), o secciones de código.</li>
+      <li>Deben ser concisos, relevantes y mantenerse actualizados con el código. Un comentario desactualizado es peor que no tenerlo.</li>
+      <li>Evitar comentar cada línea. Comentar la lógica compleja o las decisiones de diseño importantes.</li>
+    </ul>
+  </section>
+
+  <p><a href="index.html">Volver al Índice</a></p>
+</main>
+
+<footer>
+  <p>&copy; 2025 John Alexander Hidalgo Castaño</p>
+</footer>
+</body>
+</html>
